@@ -1,1 +1,18 @@
-# desarrollo.java
+# desarr/workspaces/desarrollo.java/Camara.javaollo.java
+ /workspaces/desarrollo.java/cliente.java
+ /workspaces/desarrollo.java/foto.java
+ /workspaces/desarrollo.java/impresion.java
+ /workspaces/desarrollo.java/Main.java
+ /workspaces/desarrollo.java/pedido.java
+ /workspaces/desarrollo.java/producto.java
+
+ Explicación de conceptos
+
+Herencia y Polimorfismo
+Producto es la superclase de Camara e Impresion.
+Podemos tratar productos de manera uniforme en el arreglo Producto[] gracias al polimorfismo: cada objeto conserva su comportamiento y clase específica.
+
+Composición y Agregación
+Composición: Impresion contiene un arreglo de Foto. Si la impresión se elimina, sus fotos también.
+Agregación: Pedido agrega productos. Los productos pueden existir sin un pedido.
+Pedido tiene un cliente (puede verse como agregación o composición según el contexto, aquí lo planteamos como composición porque depende directamente del cliente al hacerse el pedido
